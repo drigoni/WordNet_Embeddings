@@ -20,6 +20,7 @@ cd scikit-kge
 pip install nose
 python setup.py sdist
 pip install dist/scikit-kge-0.1.tar.gz
+cd ../
 
 # clone holographic-embeddings
 git clone https://github.com/mnick/holographic-embeddings
