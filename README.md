@@ -1,5 +1,5 @@
-# Wordnet_Embeddings
-This repository contains the code needed to train wordnet embeddings.
+# WordNet_Embeddings
+This repository contains the code needed to train WordNet embeddings.
 In particular, most of the code is taken from: https://colab.research.google.com/github/hybridnlp/tutorial/blob/master/02_knowledge_graph_embeddings.ipynb
 
 # Dependencies
