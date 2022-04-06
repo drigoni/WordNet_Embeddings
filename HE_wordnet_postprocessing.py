@@ -10,12 +10,12 @@ from nltk.corpus import wordnet as wn
 import pickle
 import random  # for shuffling list of triples
 
-# download wordnet data
+# download wordnet datasets
 nltk.download('wordnet')
 
 if __name__ == "__main__":
     name = 'wn30_holE_1000_150_0.01_0.2'
-    dataset_file = './holographic-embeddings/data/{}.bin'.format('wn30')
+    dataset_file = './holographic-embeddings/datasets/{}.bin'.format('wn30')
 
     # reading from model results
     wn30_holE_out = './holographic-embeddings/{}.bin'.format(name)

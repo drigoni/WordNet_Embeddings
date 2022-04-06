@@ -11,7 +11,7 @@ from nltk.corpus import wordnet as wn
 import pickle
 import random  # for shuffling list of triples
 
-# download wordnet data
+# download wordnet datasets
 nltk.download('wordnet')
 
 # accepted relations among synset and lemmas
@@ -155,9 +155,9 @@ def wnet30_holE_bin(out):
 
 
 if __name__ == "__main__":
-    out_bin = './holographic-embeddings/data/wn30.bin'
+    out_bin = './holographic-embeddings/datasets/wn30.bin'
     wnet30_holE_bin(out_bin)
     # wn30_holE_out='./holographic-embeddings/wn30_holE_2e.bin'
     # holE_dim=150
     # num_epochs=2
-    # python ./holographic-embeddings/kg/run_hole.py --fin ./holographic-embeddings/data/wn30.bin --fout ./holographic-embeddings/wn30_holE_2e.bin --nb 100 --me 500 --margin 0.2 --lr 0.1 --ncomp 150
+    # python ./holographic-embeddings/kg/run_hole.py --fin ./holographic-embeddings/datasets/wn30.bin --fout ./holographic-embeddings/wn30_holE_2e.bin --nb 100 --me 500 --margin 0.2 --lr 0.1 --ncomp 150
